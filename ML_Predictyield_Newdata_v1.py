@@ -1,8 +1,8 @@
 import pandas as pd
 import ML_ModelBuild_Predict_Evaluate_v1 as mlb
 
-test_csv_file = 'C:/Users/i308124/Desktop/babu project/new_crop_data.csv'
-output_prediction_file = 'C:/Users/i308124/Desktop/babu project/prediction.csv'
+test_csv_file = 'C:/Users/skmit/PycharmProjects/untitled/data/new_crop_data.csv'
+output_prediction_file = 'C:/Users/skmit/PycharmProjects/untitled/data/prediction.csv'
 
 
 def process_predict_new_data():
@@ -34,6 +34,7 @@ def process_predict_new_data():
     new_data['yield prediction from MLR'] = mlb.linear_regressor.predict(new_data_processed)
     print(new_data.head(15))
 
+    # @TODO Need to look into the csv logic
     #
     # save result in prediction file
     output_prediction_data = new_data.iloc[:, [0, 20, 21]]

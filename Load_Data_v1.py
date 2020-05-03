@@ -1,6 +1,6 @@
 import pandas as pd
 
-input_file = 'C:/Users/i308124/Desktop/babu project/crop_yield_datasource.csv'
+input_file = 'C:/Users/skmit/PycharmProjects/untitled/data/crop_yield_datasource.csv'
 
 
 def display_data(df):

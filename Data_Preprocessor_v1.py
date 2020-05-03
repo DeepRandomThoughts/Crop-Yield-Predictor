@@ -1,6 +1,6 @@
 import pandas as pd
 
-preprocessedFile = 'C:/Users/i308124/Desktop/babu project/crop_yield_datasource_preprocessed.csv'
+preprocessedFile = 'C:/Users/skmit/PycharmProjects/untitled/data/crop_yield_datasource_preprocessed.csv'
 
 
 # Check for missing values and handle them
